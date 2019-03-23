@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pexels-photo-459225.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#container_advertise {
+    display: flex;
+    margin-top: 110px;
+    margin-left: 100px
+}
+
+#output {
+    font-size: 50px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+#container_item {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px
+}
+
+#Item_count_up { 
+    width: 200px;
+    height: 200px;
+    background-image: url(pexels-photo-744667.jpeg);
+    margin: 30px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+#Item_count_up:hover {
+    transform: scale(1.2)
+}
+
+#Item_countdown { 
+    width: 200px;
+    height: 200px;
+    background-image: url(pexels-photo-1095601.jpeg);
+    margin: 30px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+#Item_countdown:hover {
+    transform: scale(1.2)
+}
+
+.advertise {
+    display:flex;
+    justify-content: center;
+    font-size: 27px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(101, 137, 195);
+    text-shadow: 2px 2px rgb(10, 12, 138);
+}

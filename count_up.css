@@ -1,0 +1,303 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+body {
+    background-image: url(getty_513124404_200012492000928072_353033.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#exampleFormControlSelect1 {
+    width: 55px
+}
+
+#exampleFormControlSelect2 {
+    width: 55px
+}
+
+#exampleFormControlSelect3 {
+    width: 88px
+}
+
+#container_begin {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 230px;
+    margin-left: 550px;
+    width: 600px;
+    height: 250px;
+    background-color: rgba(218, 216, 216,0.5);
+    border-radius: 40px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+}
+
+#form-group1 {
+    width: 70px;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px blue;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+#form-group2 {
+    width: 74px;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px blue;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+#form-group3 {
+    width: 105px;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px blue;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+#exampleFormControlSelect1 {
+    width: 110px;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px blue;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    background-color: rgb(249, 250, 210)
+}
+
+#exampleFormControlSelect2 {
+    width: 74px;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px blue;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    background-color: rgb(249, 250, 210)
+}
+
+#exampleFormControlSelect3 {
+    width: 105px;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px blue;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    background-color: rgb(249, 250, 210)
+}
+
+#smalltext1 {
+    padding: 30px;
+    color:  rgb(148, 146, 7)
+}
+
+#smalltext2 {
+    padding: 27px;
+    color:  rgb(148, 146, 7)
+}
+
+#smalltext3 {
+    padding: 45px;
+    color:  rgb(148, 146, 7)
+}
+
+#button_btn {
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 20px
+}
+
+
+#container_count_up {
+    display: flex;
+    justify-content: center;
+}
+
+#days {
+    background-color: white;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+} 
+
+#hours {
+    background-color: white;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+#minutes {
+    background-color: white;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+#seconds {
+    background-color: white;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+.time_lonely {
+    display: flex;  
+    width: 200px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border: 2px solid rgb(88, 132, 149);
+    border-radius: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px
+}
+
+#accept  {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(159, 194, 240);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#accept:hover {
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+.show_up {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+}
+
+.block_after {
+    margin-left: 5px
+}
+
+.text_after {
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+    margin-bottom: 10px
+}
+
+#back {
+    margin: 30px;
+}
+
+#btn {
+    width: 95px;
+    background-color: rgb(167, 191, 202);
+    color: rgb(90, 92, 3);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+
+#game_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+#game {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+#link_game {
+    font-size: 20px;
+    margin-left: 10px
+}
